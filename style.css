@@ -1,0 +1,187 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.maincontainer{
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+    grid-template-rows: 100% ;
+    grid-template-areas: 
+        "aso m ast";
+    height:90%;
+    width:90%;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.514);
+    border-radius: 5%;
+}
+.asideo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(251,251, 251);
+    border-radius: 30px 0px 0px 30px;
+    border-right: 1px solid darkgray;
+}
+
+.main{
+    background: rgb(251,251, 251);
+    overflow-y: scroll;  
+}
+.asideo img{
+    width:50px;
+    margin-top: 40px;
+}
+.title h1{
+    font-weight: bold;
+    color:rgb(128, 126, 126);
+    margin-top: 20px;
+    margin-left: 60px;
+} 
+.cards{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    float: left;
+}
+.car{
+    box-shadow: 3px 0px 20px 1px rgba(0,0,0,0.75);
+    background: #ffffff;
+    border-radius: 15%;
+    height: 180px;
+    width:200px;
+    border:1px solid darkgrey;
+    padding: 20px 0px 0px 15px;
+}
+
+.car h3{
+    padding: 30px 0px 20px 5px;
+    color:rgb(128, 126, 126);
+}
+.house{
+    box-shadow: 3px 0px 20px 1px rgba(0,0,0,0.75);
+    background: white;
+    border-radius: 15%;
+    height: 180px;
+    width:200px;
+    padding: 20px 0px 0px 15px;
+    border:1px solid darkgray;
+}
+.house h3{
+    padding: 30px 0px 20px 5px;
+    color:rgb(128, 126, 126);
+}
+.student{
+    box-shadow: 3px 0px 20px 1px rgba(0,0,0,0.75);
+    background: white;
+    border-radius: 15%;
+    height: 180px;
+    width:200px;
+    padding: 20px 0px 0px 15px;
+    border:1px solid darkgray;
+}
+.student h3{
+    padding: 30px 0px 20px 5px;
+    color:rgb(128, 126, 126);
+}
+.main img{
+    width: 80px;
+    height: 80px;
+}
+
+.titletwo h1{
+    font-weight: bold;
+    color:rgb(128, 126, 126);
+    margin-left: 60px;
+}
+.details{
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+    border-bottom: 2px solid darkgray;
+}
+.card1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:20px;
+}
+.card2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:20px;
+    min-width: 40%;
+    
+}
+.eye{
+    background: white;
+    height: 50px;
+    width:50px;
+    border-radius: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.425);
+    
+}
+.eye > img{
+    width:30px;
+}
+.icon>img{
+    width:30px;
+}
+
+.asidet{
+    background: rgb(255, 241, 241);
+    border-radius: 0px 30px 30px 0px;
+    
+}
+.image{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+.image > img{
+    border-radius: 5%;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.425);
+}
+.info{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.titleinfo{
+    color:darkgray;
+    font-weight: bold;
+    font-size: 20px;   
+    margin-bottom: 40px;
+}
+.info1{
+    color:darkgray;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.button>button{
+    color:white;
+    width:150px;
+    height: 50px;
+    border:none;
+    border-radius: 10%;
+    background:rgb(255, 125, 125);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.425);
+}
